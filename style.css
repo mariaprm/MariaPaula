@@ -1,0 +1,55 @@
+:root {
+  --roxo-claro: #d1c4e9;
+  --roxo-medio: #9575cd;
+  --roxo-escuro: #512da8;
+  --roxo-destaque: #7e57c2;
+  --fundo-pagina: #f3e5f5;
+  --texto-primario: #311b92;
+}
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  background-color: var(--fundo-pagina);
+  color: var(--texto-primario);
+}
+
+p {
+  color: var(--roxo-escuro);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h1, h2, h5 {
+  color: var(--roxo-medio);
+  font-weight: 700;
+}
+
+.text-highlight {
+  color: var(--roxo-destaque);
+  font-weight: bold;
+}
+
+a {
+  color: var(--roxo-destaque);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--roxo-medio);
+  text-decoration: underline;
+}
+
+.badge.bg-secondary {
+  background-color: var(--roxo-medio) !important;
+  color: white;
+}
+
+.btn-outline-secondary {
+  border-color: var(--roxo-medio);
+  color: var(--roxo-medio);
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--roxo-medio);
+  color: white;
+}
